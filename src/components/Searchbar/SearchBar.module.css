@@ -1,0 +1,27 @@
+/* Estilo para el contenedor principal */
+.searchContainer {
+    display: block;
+  }
+  
+  /* Estilo para la barra de búsqueda */
+  .searchBar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 0;
+  }
+  
+  /* Estilo para el botón de búsqueda */
+  .searchButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para cuando el cursor está sobre el botón */
+  .searchButton:hover {
+    background-color: #0056b3;
+  }

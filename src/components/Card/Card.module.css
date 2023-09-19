@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border:  1px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+
+    &:hover{
+        transform: scale(1.03)
+    }
+}
+
+.buttonStyle{
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid #BF4F74;
+    color: black;
+    margin: 0 1em;
+    padding: 0.25em 1em;
+    cursor: pointer;
+    transition: transform 0.10s ease-out;
+    width: auto;
+
+    &:hover{
+        transform: scale(1.05);
+        background-color: #BF4F74;
+    }
+}
+
+.imageStyle{
+    border-radius: 200px;
+}
